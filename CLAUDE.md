@@ -28,21 +28,32 @@ This repo stores external presentation slides built with [Quarto](https://quarto
 
 ## Folder & File Naming Convention
 
-Each talk lives in its own folder and source file following this pattern:
+Each talk lives in its own folder following this pattern:
 
 | Item | Convention |
 |------|-----------|
 | Folder | `YYYY-MM-DD-[Conference Name]/` |
 | Source file | `Slides-YYYY-MM-DD-[Conference Name].qmd` |
-| Output (HTML) | `_output/Slides-YYYY-MM-DD-[Conference Name].html` |
-| Output (PDF) | `_output/Slides-YYYY-MM-DD-[Conference Name].pdf` |
+| Output (PDF) | `Slides-YYYY-MM-DD-[Conference Name].pdf` (in folder root) |
 
-Use hyphens in the conference name (no spaces).
+Use hyphens in the conference name (no spaces). There is no separate output directory — the PDF sits at the root of the presentation folder alongside the `.qmd`.
 
-## Output Formats
+## Folder Structure Per Presentation
 
-Every presentation renders **both HTML (RevealJS) and PDF (Beamer)** by default.  
-Formats are configured in `_quarto.yml` — do not set `format:` in the `.qmd` front matter.
+```
+YYYY-MM-DD-Conference/
+├── _quarto.yml                          # Format config (beamer/metropolis)
+├── Slides-YYYY-MM-DD-Conference.qmd    # Slide content
+├── Slides-YYYY-MM-DD-Conference.pdf    # Rendered output
+└── raw/                                # Source materials
+    ├── figures/                        # Charts, images, diagrams
+    └── data/                           # Datasets used in slides
+```
+
+## Output Format
+
+PDF only (Beamer with Metropolis theme, 16:9). Configured in `_quarto.yml`.  
+Do **not** set `format:` in the `.qmd` front matter.
 
 ## Template
 
@@ -55,16 +66,16 @@ mv 2026-06-10-MyConference/Slides-YYYY-MM-DD-Conference.qmd \
    2026-06-10-MyConference/Slides-2026-06-10-MyConference.qmd
 ```
 
-Then update the title, subtitle, date, and footer in `_quarto.yml`.
+Then update the title, subtitle, date, and author block in the `.qmd` front matter.
 
 ## Quarto Commands
 
 ```bash
-# Preview a single presentation (live reload)
-quarto preview YYYY-MM-DD-Conference/
-
-# Render a single presentation (produces HTML + PDF)
+# Render a single presentation
 quarto render YYYY-MM-DD-Conference/
+
+# Preview (note: PDF preview opens in system viewer)
+quarto preview YYYY-MM-DD-Conference/
 
 # Render all presentations
 for d in [0-9][0-9][0-9][0-9]-*/; do quarto render "$d"; done
@@ -74,5 +85,6 @@ for d in [0-9][0-9][0-9][0-9]-*/; do quarto render "$d"; done
 
 | File | Purpose |
 |------|---------|
-| `_quarto.yml` | Project settings, both format configs, footer, dimensions |
+| `_quarto.yml` | Beamer/Metropolis format settings |
 | `Slides-YYYY-MM-DD-Conference.qmd` | Slide content in Quarto Markdown |
+| `raw/` | Source materials (figures, data) |

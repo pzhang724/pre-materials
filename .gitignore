@@ -1,16 +1,25 @@
 # Quarto generated files
 /.quarto/
+*/.quarto/
 _site/
 _book/
 *_files/
+
+# LaTeX intermediate files
 *.aux
 *.log
 *.out
 *.toc
+*.nav
+*.snm
+*.vrb
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.tex
 
-# Rendered outputs (uncomment to ignore)
-# *.html
-# *.pdf
+# Old output directories
+_output/
 
 # OS files
 .DS_Store
