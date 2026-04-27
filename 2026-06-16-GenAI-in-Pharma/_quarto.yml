@@ -11,10 +11,14 @@ format:
     fonttheme: professionalfonts
     include-in-header:
       text: |
-        \setbeamercolor{frametitle}{bg=black, fg=white}
-        \setbeamercolor{progress bar}{fg=orange}
-        \setbeamercolor{title separator}{fg=orange}
-        \setbeamerfont{title}{size=\Large, series=\bfseries}
-        \setbeamerfont{subtitle}{size=\normalsize}
-        \setbeamerfont{frametitle}{size=\normalsize, series=\bfseries}
-        \metroset{progressbar=frametitle, sectionpage=progressbar, block=fill}
+        \setbeamercolor{frametitle}{bg=white, fg=black}
+        \setbeamercolor{background canvas}{bg=white}
+        \setbeamercolor{normal text}{fg=black}
+        \setbeamercolor{progress bar}{fg=black!30}
+        \setbeamercolor{title separator}{fg=black!30}
+        \setbeamercolor{alerted text}{fg=black}
+        \setbeamerfont{title}{size=\LARGE, series=\bfseries}
+        \setbeamerfont{subtitle}{size=\normalsize, series=\normalfont}
+        \setbeamerfont{frametitle}{size=\large, series=\bfseries}
+        \setbeamerfont{normal text}{size=\normalsize}
+        \metroset{progressbar=none, sectionpage=none, block=transparent}
