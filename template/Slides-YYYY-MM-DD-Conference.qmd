@@ -1,12 +1,10 @@
 ---
 title: "Presentation Title"
-subtitle: "GenAI in Pharma"
+subtitle: "Conference Name"
 author:
   - name: "Peng Zhang, PhD"
     affiliation: "CIMS Global"
-date: "2026-06-16"
-output-file: Slides-2026-06-16-GenAI-in-Pharma.html
-format: revealjs
+date: "YYYY-MM-DD"
 ---
 
 ## Agenda
