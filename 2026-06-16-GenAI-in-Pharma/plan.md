@@ -36,4 +36,9 @@
 13. **Affordability of using AI**
     - Making things on the phone using Claude Code
 
-14. **People still hold the accountability**
+14. **Human oversight modes**
+    - Human-in-the-loop
+    - Human on the loop
+    - Human in command
+
+15. **People still hold the accountability**
