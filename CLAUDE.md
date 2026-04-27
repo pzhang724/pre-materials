@@ -24,10 +24,22 @@ This repo stores external presentation slides built with [Quarto](https://quarto
 Each talk lives in `YYYY-MM-DD-[Conference Name]/`.  
 Use hyphens in the conference name (no spaces).
 
+## Output File Naming
+
+Rendered slides must be named `Slides-YYYY-MM-DD-[Conference Name].html`.  
+Set this in the front matter of each presentation's `index.qmd`:
+
+```yaml
+output-file: Slides-YYYY-MM-DD-Conference.html
+```
+
+When creating a new presentation, always update `output-file` to match the folder name.
+
 ## Template
 
 `template/` is the canonical starting point for every new presentation.  
-Copy it and rename the folder before editing.
+Copy it and rename the folder before editing.  
+**After copying, update `output-file` in `_quarto.yml` to match the folder name.**
 
 ## Quarto Commands
 

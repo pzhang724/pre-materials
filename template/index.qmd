@@ -5,6 +5,7 @@ author:
   - name: "Peng Zhang, PhD"
     affiliation: "CIMS Global"
 date: "YYYY-MM-DD"
+output-file: Slides-YYYY-MM-DD-Conference.html
 format: revealjs
 ---
 

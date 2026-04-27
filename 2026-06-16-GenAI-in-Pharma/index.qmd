@@ -5,6 +5,7 @@ author:
   - name: "Peng Zhang, PhD"
     affiliation: "CIMS Global"
 date: "2026-06-16"
+output-file: Slides-2026-06-16-GenAI-in-Pharma.html
 format: revealjs
 ---
 
