@@ -1,0 +1,2 @@
+# GenAI in Pharma — Plan
+
