@@ -1,7 +1,9 @@
 ---
 title: "Presentation Title"
 subtitle: "Conference Name"
-author: "Your Name"
+author:
+  - name: "Peng Zhang, PhD"
+    affiliation: "CIMS Global"
 date: "YYYY-MM-DD"
 format: revealjs
 ---

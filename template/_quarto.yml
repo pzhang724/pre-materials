@@ -7,7 +7,7 @@ format:
     theme: default
     slide-number: c/t
     show-slide-number: all
-    footer: "Your Name | Conference Name | YYYY-MM-DD"
+    footer: "Peng Zhang, PhD | CIMS Global | Conference Name | YYYY-MM-DD"
     logo: ""
     transition: fade
     chalkboard: false
