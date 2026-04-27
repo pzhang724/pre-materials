@@ -1,0 +1,23 @@
+# Quarto generated files
+/.quarto/
+_site/
+_book/
+*_files/
+*.aux
+*.log
+*.out
+*.toc
+
+# Rendered outputs (uncomment to ignore)
+# *.html
+# *.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo

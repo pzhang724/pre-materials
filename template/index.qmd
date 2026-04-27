@@ -1,0 +1,44 @@
+---
+title: "Presentation Title"
+subtitle: "Conference Name"
+author: "Your Name"
+date: "YYYY-MM-DD"
+format: revealjs
+---
+
+## Agenda
+
+- Topic 1
+- Topic 2
+- Topic 3
+
+## Topic 1
+
+Content goes here.
+
+::: {.notes}
+Speaker notes go here.
+:::
+
+## Topic 2
+
+```{r}
+#| echo: true
+#| fig-width: 8
+#| fig-height: 4
+# Your R/Python code here
+```
+
+## Summary
+
+- Key takeaway 1
+- Key takeaway 2
+- Key takeaway 3
+
+## Thank You
+
+Questions?
+
+::: {.smaller}
+Slides: [github.com/pzhang724/pre-materials](https://github.com/pzhang724/pre-materials)
+:::
