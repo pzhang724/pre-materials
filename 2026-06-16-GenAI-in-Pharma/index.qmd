@@ -24,10 +24,7 @@ Speaker notes go here.
 
 ## Topic 2
 
-```{r}
-#| echo: true
-#| fig-width: 8
-#| fig-height: 4
+```r
 # Your R/Python code here
 ```
 

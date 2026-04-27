@@ -1,5 +1,22 @@
 # pre-materials — Claude Code Context
 
+## Environment Setup
+
+Before rendering presentations, verify Quarto is installed:
+
+```bash
+quarto --version
+```
+
+If not installed (Ubuntu/Debian):
+
+```bash
+curl -fsSL https://github.com/quarto-dev/quarto-cli/releases/download/v1.6.42/quarto-1.6.42-linux-amd64.deb -o /tmp/quarto.deb
+sudo dpkg -i /tmp/quarto.deb
+```
+
+Quarto 1.6.42 is the tested version for this repo. After installing, run `quarto check` to verify.
+
 This repo stores external presentation slides built with [Quarto](https://quarto.org/).
 
 ## Folder Convention

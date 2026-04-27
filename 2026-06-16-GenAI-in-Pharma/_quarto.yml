@@ -2,6 +2,9 @@ project:
   type: default
   output-dir: _output
 
+execute:
+  enabled: false
+
 format:
   revealjs:
     theme: default
