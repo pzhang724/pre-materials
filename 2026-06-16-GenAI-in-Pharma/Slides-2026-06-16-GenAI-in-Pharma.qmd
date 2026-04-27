@@ -1,11 +1,10 @@
 ---
 title: "Presentation Title"
-subtitle: "Conference Name"
+subtitle: "GenAI in Pharma"
 author:
   - name: "Peng Zhang, PhD"
     affiliation: "CIMS Global"
-date: "YYYY-MM-DD"
-format: revealjs
+date: "2026-06-16"
 ---
 
 ## Agenda
@@ -24,10 +23,7 @@ Speaker notes go here.
 
 ## Topic 2
 
-```{r}
-#| echo: true
-#| fig-width: 8
-#| fig-height: 4
+```r
 # Your R/Python code here
 ```
 
