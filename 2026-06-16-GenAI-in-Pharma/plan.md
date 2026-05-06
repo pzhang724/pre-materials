@@ -42,3 +42,10 @@
     - Human in command
 
 15. **People still hold the accountability**
+
+16. To add production and dev environment
+17. Imagine the LLM will become powerful enough, accuracy to data model
+18. You start to think about if your document is built for human's read or agent's read
+19. pycsr
+20. to some extent, human's understanding will be the limitation
+21. claude code course
